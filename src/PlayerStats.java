@@ -15,6 +15,11 @@ public class PlayerStats{
     private int steals;
     private int blocks;
     
+    
+    public PlayerStats(){
+
+    }
+    
     public PlayerStats(Player player, int twoPointMade, int twoPointAttempted, int threePointMade,
             int threePointAttempted, int freeThrowMade, int freeThrowAttempted, int rebounds, int assists, int steals,
             int blocks) {
