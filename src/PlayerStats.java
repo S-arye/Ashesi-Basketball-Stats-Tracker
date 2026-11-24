@@ -1,4 +1,4 @@
-public class PlayerStats{
+public class PlayerStats extends Player{
     private Player player;
 
     private int twoPointMade;
@@ -19,7 +19,7 @@ public class PlayerStats{
     public PlayerStats(){
 
     }
-    
+
     public PlayerStats(Player player, int twoPointMade, int twoPointAttempted, int threePointMade,
             int threePointAttempted, int freeThrowMade, int freeThrowAttempted, int rebounds, int assists, int steals,
             int blocks) {
