@@ -115,8 +115,8 @@ public class PlayerStats extends Player{
 
     public double getShootingPercentage() {
 
-    int totalMade = twoPointMade + threePointMade +freeThrowMade;
-    int totalAttempted = twoPointAttempted + threePointAttempted + freeThrowAttempted;
+    int totalMade = twoPointMade + threePointMade;
+    int totalAttempted = twoPointAttempted + threePointAttempted;
 
     if (totalAttempted == 0) {
         return 0.0;
